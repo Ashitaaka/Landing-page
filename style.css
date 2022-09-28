@@ -221,13 +221,13 @@ footer{
     display: flex;
 }
 .contact_f{
-    flex: 0 1 25%;
+    flex: 0 1 35%;
 }
 .about_us{
-    flex: 0 1 25%;
+    flex: 0 1 20%;
 }
 .contact_us{
-    flex: 0 1 25%;
+    flex: 0 1 20%;
 }
 .logo_rs{
     flex: 0 1 25%;
@@ -248,9 +248,81 @@ footer li{
 }
 .contact_f img{
     display: inline-block;
+    margin-right: 0.5em;
+}
+.contact_f p{
+    margin-bottom: 0.8em;
 }
 .rs{
+    vertical-align: middle;
     padding: 0.4em 0.5em 0.3em 0.5em;
     border: 1px solid white;
     border-radius: 50%;
+    margin-right: 0.5em;
 }
+footer a:hover{
+    color: var(--brightBlue);
+    border-color: var(--brightBlue);
+}
+
+@media all and (max-width: 1024px){
+    h1{
+        font-size: 1.5em;
+    }
+    header{
+        padding: 2em 1.5em;
+    }
+    .logo_header{
+        width: 86px;
+        height: 25px;
+    }
+    nav ul{
+        font-size: 0.85em;
+    }
+    nav li{
+        margin-right: 1.5em;
+    }
+    section{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .section1{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-bottom: 12em;
+    }
+    form{
+        flex-direction: column;
+        width: 100%;
+    }
+     .email_field{
+         margin: 0 0 1em 0;
+    }
+    .button1{
+        padding: 0.85em 0;
+    }
+    .section2{
+        padding-top: 0;
+        padding-bottom: 5em;
+        flex-direction: column-reverse;
+    }
+    .section2 h1{
+        text-align: center;
+        font-size: 1.1em;
+        margin-bottom: 1em;
+    }
+   .section2 .infos_section, .infos_section{
+        margin: 0;
+        flex:1;
+    }
+    .link{
+        text-align: center;
+    }
+    .image_section{
+        flex:1;
+        margin-bottom: 4em;
+    }
+    .section2 p,.newsletter_infos p{
+        width: 100%;}
+    
+    }
