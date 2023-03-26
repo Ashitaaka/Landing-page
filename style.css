@@ -408,6 +408,9 @@ footer a:hover {
         flex: 1;
         padding: 0;
     }
+    .autor {
+        justify-content: center;
+    }
 
     .newsletter {
         flex-direction: column;
